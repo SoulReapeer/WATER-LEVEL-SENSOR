@@ -1,9 +1,9 @@
-#**Water Level Indicator using Arduino Uno**
+**Water Level Indicator using Arduino Uno**
 
 This project is a simple Water Level Indicator built with an Arduino Uno. It uses a water level sensor to monitor tank levels and displays real-time readings on an LCD (16x2) with an I2C module. The project can be extended with buzzers or pumps for automation.
 
 
-#**Features**
+**Features**
 
 - Measures water level using an analog sensor
 
@@ -14,7 +14,7 @@ This project is a simple Water Level Indicator built with an Arduino Uno. It use
 - Compact design using an I2C module for LCD
 
 
-#**Components Used**
+**Components Used**
 
 - Arduino Uno board × 1
 
@@ -27,14 +27,11 @@ This project is a simple Water Level Indicator built with an Arduino Uno. It use
 - Jumper wires
 
 
-#**Circuit Connections**
+**Circuit Connections**
 ------------------------------------
 | Component          | Arduino Pin |
-| ------------------ | ----------- |
 | Water Level Sensor | A0          |
-|--------------------|-------------|
 | LCD (via I2C)      | SDA → A4    |
 |                    | SCL → A5    |
-|--------------------|-------------|
 | Power (VCC, GND)   | 5V, GND     |
 ------------------------------------
