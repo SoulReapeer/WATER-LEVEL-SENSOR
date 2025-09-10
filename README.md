@@ -29,13 +29,13 @@ This project is a simple Water Level Indicator built with an Arduino Uno. It use
 
 **Circuit Connections**
 
-------------------------------------
-| Component          | Arduino Pin |
-|--------------------|-------------|
-| Water Level Sensor | A0          |
-|--------------------|-------------|
-| LCD (via I2C)      | SDA → A4    |
-|                    | SCL → A5    |
-|--------------------|-------------|
-| Power (VCC, GND)   | 5V, GND     |
-------------------------------------
+I2C Module -> Arduino UNO Board
+SCL -> A5
+SDA -> A4
+VCC -> 5V
+GND -> GND
+
+Water Level Sensor -> Arduino UNO Board
+S   -> A0
+(+) -> VIN
+(-) -> GND
