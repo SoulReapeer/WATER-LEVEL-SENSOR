@@ -28,6 +28,7 @@ This project is a simple Water Level Indicator built with an Arduino Uno. It use
 
 
 **Circuit Connections**
+
 ------------------------------------
 | Component          | Arduino Pin |
 ------------------------------------
